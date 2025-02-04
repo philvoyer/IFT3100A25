@@ -4,223 +4,238 @@ Références en lien avec le module 3 : transformation.
 
 ## OpenGL
 
-OpenGL: Transformation FAQ  
+OpenGL: Transformation FAQ
 https://www.opengl.org/archives/resources/faq/technical/transformations.htm
 
 ##  OpenGL (fixed-function pipeline)
 
-Red Book - Chapitre 3  
+Red Book - Chapitre 3
 http://glprogramming.com/red/chapter03.html
 
-Commande glMatrixMode  
+Commande glMatrixMode
 https://www.opengl.org/sdk/docs/man2/xhtml/glMatrixMode.xml
 
-Commande glLoadMatrix  
+Commande glLoadMatrix
 https://www.opengl.org/sdk/docs/man2/xhtml/glLoadMatrix.xml
 
-Commande glMultMatrix  
+Commande glMultMatrix
 https://www.opengl.org/sdk/docs/man2/xhtml/glMultMatrix.xml
 
-Commande glLoadIdentity  
+Commande glLoadIdentity
 https://www.opengl.org/sdk/docs/man2/xhtml/glLoadIdentity.xml
 
-Commande glTranslate  
+Commande glTranslate
 https://www.opengl.org/sdk/docs/man2/xhtml/glTranslate.xml
 
-Commande glRotate  
+Commande glRotate
 https://www.opengl.org/sdk/docs/man2/xhtml/glRotate.xml
 
-Commande glScale  
+Commande glScale
 https://www.opengl.org/sdk/docs/man2/xhtml/glScale.xml
 
-Commande glPushMatrix  
+Commande glPushMatrix
 https://www.opengl.org/sdk/docs/man2/xhtml/glPushMatrix.xml
 
-Commande glPopMatrix  
+Commande glPopMatrix
 https://www.opengl.org/sdk/docs/man2/xhtml/glPopMatrix.xml
 
 ## GLSL
 
-GLSL: Vector and Matrix Operations  
+GLSL: Vector and Matrix Operations
 https://en.wikibooks.org/wiki/GLSL_Programming/Vector_and_Matrix_Operations
 
-GLSL: Applying Matrix Transformations  
+GLSL: Applying Matrix Transformations
 https://en.wikibooks.org/wiki/GLSL_Programming/Applying_Matrix_Transformations
 
 ## Wikipédia
 
-Espace euclidien  
+Espace euclidien
 https://fr.wikipedia.org/wiki/Espace_euclidien
 
-Coordonnées cartésiennes  
+Coordonnées cartésiennes
 https://fr.wikipedia.org/wiki/Coordonnées_cartésiennes
 
-Coordonnées polaires  
+Coordonnées polaires
 https://fr.wikipedia.org/wiki/Coordonnées_polaires
 
-Coordonnées cylindriques  
+Coordonnées cylindriques
 https://fr.wikipedia.org/wiki/Coordonnées_cylindriques
 
-Coordonnées sphériques  
+Coordonnées sphériques
 https://fr.wikipedia.org/wiki/Coordonnées_sphériques
 
-Blocage de cardan  
+Blocage de cardan
 https://fr.wikipedia.org/wiki/Blocage_de_cardan
 
-Gimbal lock  
+Gimbal lock
 https://en.wikipedia.org/wiki/Gimbal_lock
 
-Inégalité du triangle  
-https://fr.wikipedia.org/wiki/Inégalité_triangulaire  
+Inégalité du triangle
+https://fr.wikipedia.org/wiki/Inégalité_triangulaire
 https://en.wikipedia.org/wiki/Triangle_inequality
 
-Inégalité de Cauchy-Schwarz  
-https://fr.wikipedia.org/wiki/Inégalité_de_Cauchy-Schwarz  
+Inégalité de Cauchy-Schwarz
+https://fr.wikipedia.org/wiki/Inégalité_de_Cauchy-Schwarz
 https://en.wikipedia.org/wiki/Cauchy–Schwarz_inequality
 
-Formule de rotation de Rodrigues  
-https://fr.wikipedia.org/wiki/Rotation_vectorielle  
+Formule de rotation de Rodrigues
+https://fr.wikipedia.org/wiki/Rotation_vectorielle
 https://en.wikipedia.org/wiki/Rodrigues%27_rotation_formula
 
 ## openFrameworks
 
-Classe de vecteur 2D  
+Classe de vecteur 2D
 https://openframeworks.cc/documentation/math/ofVec2f/
 
-Classe de vecteur 3D  
+Classe de vecteur 3D
 https://openframeworks.cc/documentation/math/ofVec3f/
 
-Matrice de transformation  
+Matrice de transformation
 https://openframeworks.cc/documentation/math/ofMatrix4x4/
 
-Quaternion  
+Quaternion
 https://openframeworks.cc/documentation/math/ofQuaternion/
 
-Noeud de transformation  
+Noeud de transformation
 https://openframeworks.cc/documentation/3d/ofNode/
 
-Fonction : ofGetCurrentMatrix  
+Fonction : ofGetCurrentMatrix
 https://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofGetCurrentMatrix
 
-Fonction : ofGetCoordHandedness  
+Fonction : ofGetCoordHandedness
 https://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofGetCoordHandedness
 
-Fonction : ofSetCoordHandedness  
+Fonction : ofSetCoordHandedness
 https://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofSetCoordHandedness
 
-Fonction : ofGetCurrentOrientationMatrix  
+Fonction : ofGetCurrentOrientationMatrix
 https://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofGetCurrentOrientationMatrix
 
-Fonction : ofSetMatrixMode  
+Fonction : ofSetMatrixMode
 https://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofSetMatrixMode
 
-Fonction : ofLoadMatrix  
+Fonction : ofLoadMatrix
 https://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofLoadMatrix
 
-Fonction : ofMultMatrix  
+Fonction : ofMultMatrix
 https://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofMultMatrix
 
-Fonction : ofPushMatrix  
+Fonction : ofPushMatrix
 https://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofPushMatrix
 
-Fonction : ofPopMatrix  
+Fonction : ofPopMatrix
 https://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofPopMatrix
 
-Fonction : ofRotate  
+Fonction : ofRotate
 https://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofRotate
 
-Fonction : ofRotateX  
+Fonction : ofRotateX
 https://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofRotateX
 
-Fonction : ofRotateY  
+Fonction : ofRotateY
 https://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofRotateY
 
-Fonction : ofRotateZ  
+Fonction : ofRotateZ
 https://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofRotateZ
 
-Fonction : ofScale  
+Fonction : ofScale
 https://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofScale
 
-Fonction : ofIsVFlipped  
+Fonction : ofIsVFlipped
 https://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofIsVFlipped
 
-openFrameworks et GLM  
+openFrameworks et GLM
 https://openframeworks.cc/learning/02_graphics/how_to_use_glm/
 
 ## Librairies
 
-GLM: Librairie mathématique pour OpenGL  
+GLM: Librairie mathématique pour OpenGL
 https://glm.g-truc.net/0.9.5/index.html
 
-GLM: Exemples  
+GLM: Exemples
 https://glm.g-truc.net/0.9.7/code.html
 
-Eigen  
+Eigen
 https://eigen.tuxfamily.org/dox/
 
-Apple GLKit  
+Apple GLKit
 https://developer.apple.com/documentation/glkit
 
 ## Articles et tutoriels
 
-LearnOpenGL - Coordinate Systems  
+LearnOpenGL - Coordinate Systems
 https://learnopengl.com/Getting-started/Coordinate-Systems
 
-LearnOpenGL - Transformations  
+LearnOpenGL - Transformations
 https://learnopengl.com/Getting-started/Transformations
 
-Tutorial : Transformations  
+Tutorial : Transformations
 https://open.gl/transformations
 
-Tutorial 17 : Rotations  
+Tutorial 17 : Rotations
 https://www.opengl-tutorial.org/intermediate-tutorials/tutorial-17-quaternions/
 
-Tutorial : OpenGL Transformation  
+Tutorial : OpenGL Transformation
 https://www.songho.ca/opengl/gl_transform.html
 
-Tutorial : How to Rotate a Vertex by a Quaternion in GLSL  
+Tutorial : How to Rotate a Vertex by a Quaternion in GLSL
 https://www.geeks3d.com/20141201/how-to-rotate-a-vertex-by-a-quaternion-in-glsl/
 
-Article : Matrices, Handedness, Pre and Post Multiplication, Row vs Column Major, and Notations  
+Article : Matrices, Handedness, Pre and Post Multiplication, Row vs Column Major, and Notations
 https://seanmiddleditch.github.io/matrices-handedness-pre-and-post-multiplication-row-vs-column-major-and-notations/
 
-Left- vs. Right-handed coordinate systems  
+Left- vs. Right-handed coordinate systems
 https://www.evl.uic.edu/ralph/508S98/coordinates.html
 
-Profiling : measurement and analysis (produit matriciel)  
+Profiling : measurement and analysis (produit matriciel)
 https://engineering.riotgames.com/news/profiling-measurement-and-analysis
 
-Conférence de Fabrice Nonez (Université de Montréal) : Apparemment, les quaternions c'est fly ?  
+Conférence de Fabrice Nonez (Université de Montréal) : Apparemment, les quaternions c'est fly ?
 https://youtu.be/t9dLqfrj7lg
 
-A faster quaternion-vector multiplication  
+A faster quaternion-vector multiplication
 https://blog.molecular-matters.com/2013/05/24/a-faster-quaternion-vector-multiplication/
 
-Quaternions - Online visualisation  
+Quaternions - Online visualisation
 https://quaternions.online
 
-3Blue1Brown - Quaternions and 3d rotation, explained interactively  
+3Blue1Brown - Quaternions and 3d rotation, explained interactively
 https://www.3blue1brown.com/lessons/quaternions-and-3d-rotation
 
-3Blue1Brown - Visualizing quaternions (4d numbers) with stereographic projection  
+3Blue1Brown - Visualizing quaternions (4d numbers) with stereographic projection
 https://www.3blue1brown.com/lessons/quaternions
+
+Freya Holmér - Freya's stuff
+https://freyaholmer.com
+
+Math for Game Devs [Part 1] - Vectors & Dot Product
+https://www.youtube.com/watch?v=MOYiVLEnhrw
+
+Freya Holmér - Math for Game Devs [Part 2] - Spaces & Cross Product
+https://www.youtube.com/watch?v=XiwEyopOMqg
+
+Freya Holmér - Math for Game Devs [Part 3] - Trigonometry
+https://www.youtube.com/watch?v=1NLekEd770w
+
+Freya Holmér - Math for Game Devs [Part 4] - Interpolation & Velocity
+https://www.youtube.com/watch?v=-Ii3MrJFBkQ&t
 
 ## Divers
 
-L-système  
-https://en.wikipedia.org/wiki/L-system  
-https://fr.wikipedia.org/wiki/L-Système  
-https://cgjennings.ca/articles/l-systems.html  
+L-système
+https://en.wikipedia.org/wiki/L-system
+https://fr.wikipedia.org/wiki/L-Système
+https://cgjennings.ca/articles/l-systems.html
 http://paulbourke.net/fractals/lsys/
 
-Mandelbrot  
-https://fr.wikipedia.org/wiki/Ensemble_de_Mandelbrot  
+Mandelbrot
+https://fr.wikipedia.org/wiki/Ensemble_de_Mandelbrot
 https://en.wikipedia.org/wiki/Mandelbrot_set
 
-Mandelbox  
-https://fr.wikipedia.org/wiki/Mandelbox  
+Mandelbox
+https://fr.wikipedia.org/wiki/Mandelbox
 https://en.wikipedia.org/wiki/Mandelbox
 
-Mandelbulb  
-https://fr.wikipedia.org/wiki/Mandelbulb  
+Mandelbulb
+https://fr.wikipedia.org/wiki/Mandelbulb
 https://en.wikipedia.org/wiki/Mandelbulb
