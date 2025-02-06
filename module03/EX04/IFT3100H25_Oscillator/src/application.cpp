@@ -1,4 +1,4 @@
-// IFT3100H24_Oscillator/application.cpp
+// IFT3100H25_Oscillator/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
