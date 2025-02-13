@@ -1,4 +1,4 @@
-// IFT3100H24_EquilateralTriangle/application.h
+// IFT3100H25_EquilateralTriangle/application.h
 // Classe principale de l'application.
 
 #pragma once
