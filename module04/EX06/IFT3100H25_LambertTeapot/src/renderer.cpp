@@ -15,7 +15,7 @@ void Renderer::setup()
   use_rotation = true;
 
   // chargement du modèle
-  teapot.loadModel("teapot.obj");
+  teapot.load("teapot.obj");
 
   // désactiver le matériau par défaut du modèle
   teapot.disableMaterials();
