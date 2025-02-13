@@ -1,4 +1,4 @@
-// IFT3100H23_LambertTeapot/application.cpp
+// IFT3100H25_LambertTeapot/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
