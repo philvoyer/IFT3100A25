@@ -1,4 +1,4 @@
-// IFT3100H24_CameraProjection/renderer.cpp
+// IFT3100H25_CameraProjection/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
@@ -26,7 +26,7 @@ void Renderer::setup()
   offset_z = 0.0f;
 
   // chargement du modèle
-  teapot.loadModel("teapot.obj");
+  teapot.load("teapot.obj");
 
   // désactiver le matériau par défaut du modèle
   teapot.disableMaterials();
