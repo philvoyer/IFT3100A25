@@ -1,4 +1,4 @@
-// IFT3100H24_CameraTransform/application.h
+// IFT3100H25_CameraTransform/application.h
 // Classe principale de l'application.
 
 #pragma once
