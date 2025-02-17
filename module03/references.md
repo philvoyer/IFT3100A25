@@ -205,10 +205,13 @@ https://www.3blue1brown.com/lessons/quaternions-and-3d-rotation
 3Blue1Brown - Visualizing quaternions (4d numbers) with stereographic projection
 https://www.3blue1brown.com/lessons/quaternions
 
+Visualizing quaternions quaternions - An explorable video series
+https://eater.net/quaternions
+
 Freya Holmér - Freya's stuff
 https://freyaholmer.com
 
-Math for Game Devs [Part 1] - Vectors & Dot Product
+Freya Holmér - Math for Game Devs [Part 1] - Vectors & Dot Product
 https://www.youtube.com/watch?v=MOYiVLEnhrw
 
 Freya Holmér - Math for Game Devs [Part 2] - Spaces & Cross Product
