@@ -18,8 +18,4 @@ void main()
 
   float depth_color = 1.0 - surface_depth;
   fragment_color = vec4(depth_color, depth_color, depth_color, 1.0);
-
-  // fragment_color = vec4((clipDepth * 0.5) + 0.5);
-  // fragment_color = vec4(gl_FragCoord.z);
-  // fragment_color = vec4(gl_FragDepth, gl_FragDepth, gl_FragDepth, 1.0);
 }
