@@ -149,11 +149,11 @@ void Renderer::generate_matrix()
 // fonction qui calcul un angle de champs de vision à partir d'un facteur de zoom
 float Renderer::compute_fov_from_zoom(float zoom)
 {
-  return glm::degrees(2.0f * atanf(1.0f / camera_zoom));;
+  return glm::degrees(2.0f * atanf(1.0f / camera_zoom));
 }
 
-// fonction qui calcul un facteur de zoom à partir d'una ngle de champs de vision
+// fonction qui calcul un facteur de zoom à partir d'un angle de champs de vision
 float Renderer::compute_zoom_from_fov(float fov)
 {
-  return 1.0f / tanf(glm::radians(camera_fov) / 2.0f);;
+  return 1.0f / tanf(glm::radians(camera_fov) / 2.0f);
 }
