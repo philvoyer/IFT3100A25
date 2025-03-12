@@ -1,4 +1,4 @@
-// IFT3100H24 ~ image_filter_330_fs.glsl
+// IFT3100H25 ~ image_filter_330_fs.glsl
 
 #version 330
 
@@ -10,8 +10,9 @@ out vec4 fragment_color;
 
 // attributs uniformes
 uniform sampler2D image;
-uniform vec3 tint;
-uniform float factor;
+uniform vec3 tint_color;
+uniform float factor_tint_mix;
+uniform float factor_opacity;
 
 void main()
 {
@@ -19,8 +20,8 @@ void main()
   vec3 texture_sample = texture(image, surface_texcoord).rgb;
 
   // mixage avec la teinte de couleur
-  vec3 filtered_color = mix(texture_sample, tint, factor);
+  vec3 filtered_color = mix(texture_sample, tint_color, factor_tint_mix);
 
   // couleur finale du fragment
-  fragment_color = vec4(filtered_color, 1.0);
+  fragment_color = vec4(filtered_color, factor_opacity);
 }

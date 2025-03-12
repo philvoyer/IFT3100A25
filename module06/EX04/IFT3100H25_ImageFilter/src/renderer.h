@@ -1,4 +1,4 @@
-// IFT3100H24_ImageFilter/renderer.h
+// IFT3100H25_ImageFilter/renderer.h
 // Classe responsable du rendu de l'application.
 
 #pragma once
@@ -13,9 +13,10 @@ public:
 
   ofShader shader;
 
-  float mix_factor;
+  float factor_tint_mix;
+  float factor_opacity;
 
-  ofColor tint;
+  ofColor tint_color;
 
   int offset_vertical;
   int offset_horizontal;

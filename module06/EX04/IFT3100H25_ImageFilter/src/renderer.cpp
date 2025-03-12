@@ -1,4 +1,4 @@
- // IFT3100H24_ImageFilter/renderer.cpp
+ // IFT3100H25_ImageFilter/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
@@ -10,8 +10,9 @@ void Renderer::setup()
   ofSetLogLevel(OF_LOG_VERBOSE);
   ofDisableArbTex();
 
-  tint.set(255, 255, 255);
-  mix_factor = 0.618f;
+  tint_color.set(255, 255, 255);
+  factor_tint_mix = 0.618f;
+  factor_opacity = 1.0f;
   offset_vertical = 32;
   offset_horizontal = 32;
 
@@ -34,8 +35,9 @@ void Renderer::draw()
 
   // passer les attributs uniformes au shader
   shader.setUniformTexture("image", image.getTexture(), 1);
-  shader.setUniform3f("tint", tint.r / 255.0f, tint.g / 255.0f, tint.b / 255.0f);
-  shader.setUniform1f("factor", mix_factor);
+  shader.setUniform3f("tint_color", tint_color.r / 255.0f, tint_color.g / 255.0f, tint_color.b / 255.0f);
+  shader.setUniform1f("factor_tint_mix", factor_tint_mix);
+  shader.setUniform1f("factor_opacity", factor_opacity);
 
   // dessiner l'image sur la seconde moitié de la surface de la fenêtre
   image.draw(image.getWidth() + offset_horizontal * 2, offset_vertical, image.getWidth(), image.getHeight());

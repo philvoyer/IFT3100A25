@@ -1,25 +1,27 @@
-// IFT3100H24_ImageFilter/application.cpp
+// IFT3100H25_ImageFilter/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
 
 void Application::setup()
 {
-  ofSetWindowTitle("filtre d'image (teinte)");
+  ofSetWindowTitle("filtre d'image (teinte et opacité)");
 
   ofLog() << "<app::setup>";
 
   renderer.setup();
 
   gui.setup();
-  gui.add(color_picker.set("teinte", renderer.tint, ofColor(0, 0), ofColor(255, 255)));
-  gui.add(slider.set("mix", renderer.mix_factor, 0.0f, 1.0f));
+  gui.add(color_picker.set("teinte", renderer.tint_color, ofColor(0, 0), ofColor(255, 255)));
+  gui.add(slider_tint_mix.set("mix de couleur", renderer.factor_tint_mix, 0.0f, 1.0f));
+  gui.add(slider_opacity.set("opacity", renderer.factor_opacity, 0.0f, 1.0f));
 }
 
 void Application::update()
 {
-  renderer.tint = color_picker;
-  renderer.mix_factor = slider;
+  renderer.tint_color = color_picker;
+  renderer.factor_tint_mix = slider_tint_mix;
+  renderer.factor_opacity = slider_opacity;
 }
 
 void Application::draw()

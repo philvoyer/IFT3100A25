@@ -1,4 +1,4 @@
-// IFT3100H24_ImageFilter/application.h
+// IFT3100H25_ImageFilter/application.h
 // Classe principale de l'application.
 
 #pragma once
@@ -16,7 +16,8 @@ public:
   ofxPanel gui;
 
   ofParameter<ofColor> color_picker;
-  ofParameter<float> slider;
+  ofParameter<float> slider_tint_mix;
+  ofParameter<float> slider_opacity;
 
   void setup();
   void update();
