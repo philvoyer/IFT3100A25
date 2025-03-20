@@ -1,4 +1,4 @@
-// IFT3100H24_Lighting/renderer.cpp
+// IFT3100H25_Lighting/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
@@ -23,7 +23,7 @@ void Renderer::setup()
   scale_teapot = 0.618f;
 
   // chargement du modèle 3D
-  teapot.loadModel("teapot.obj");
+  teapot.load("teapot.obj");
 
   // initialisation de la scène
   reset();
