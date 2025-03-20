@@ -1,4 +1,4 @@
-// IFT3100H24_ShaderClassic/renderer.cpp
+// IFT3100H25_ShaderClassic/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
@@ -29,7 +29,7 @@ void Renderer::setup()
   delta_z = speed_motion;
 
   // chargement d'un modèle 3D
-  teapot.loadModel("geometry/teapot.obj");
+  teapot.load("geometry/teapot.obj");
 
   // désactiver le matériau par défaut du modèle
   teapot.disableMaterials();
