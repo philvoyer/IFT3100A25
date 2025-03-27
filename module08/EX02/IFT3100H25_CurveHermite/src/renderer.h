@@ -1,4 +1,4 @@
-// IFT3100H24_CurveHermite/renderer.h
+// IFT3100H25_CurveHermite/renderer.h
 // Classe responsable du rendu de l'application.
 
 #pragma once
