@@ -138,6 +138,9 @@ http://rosettacode.org/wiki/Xiaolin_Wu's_line_algorithm
 Tiny Renderer - Lesson 1: Bresenham’s Line Drawing Algorithm  
 https://github.com/ssloy/tinyrenderer/wiki/Lesson-1:-Bresenham’s-Line-Drawing-Algorithm
 
+The DDA Algorithm, explained interactively  
+https://aaaa.sh/creatures/dda-algorithm-interactive
+
 ## Interface utilisateur (UI) 
 
 ofxGUI  
