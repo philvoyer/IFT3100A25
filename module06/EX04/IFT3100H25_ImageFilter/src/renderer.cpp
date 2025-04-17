@@ -1,4 +1,4 @@
- // IFT3100H25_ImageFilter/renderer.cpp
+// IFT3100H25_ImageFilter/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
