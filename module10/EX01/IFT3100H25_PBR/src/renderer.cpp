@@ -1,4 +1,4 @@
-// IFT3100H24_PBR/renderer.cpp
+// IFT3100H25_PBR/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
@@ -12,7 +12,7 @@ void Renderer::setup()
   ofSetSphereResolution(32);
 
   // chargement d'un modèle 3D
-  teapot.loadModel("geometry/teapot.obj");
+  teapot.load("geometry/teapot.obj");
 
   // désactiver le matériau par défaut du modèle
   teapot.disableMaterials();
