@@ -1,7 +1,6 @@
 // IFT3100A25_GL_ImageExport.cpp
 // Exemple d'une section de code pour exporter une image à partir du contenu d'un framebuffer avec OpenGL.
 
-
 // entrée
 // • Identifiant du framebuffer à copier.
 // sortie
