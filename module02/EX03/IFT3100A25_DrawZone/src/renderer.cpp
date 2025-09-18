@@ -35,8 +35,8 @@ void Renderer::draw()
 // fonction qui dessine une zone rectangulaire
 void Renderer::draw_zone(float x1, float y1, float x2, float y2) const
 {
-  float x2_clamp = min(max(0.0f, x2), (float) ofGetWidth());
-  float y2_clamp = min(max(0.0f, y2), (float) ofGetHeight());
+  float x2_clamp = std::min(std::max(0.0f, x2), (float) ofGetWidth());
+  float y2_clamp = std::min(std::max(0.0f, y2), (float) ofGetHeight());
 
   ofSetLineWidth(radius);
   ofSetColor(255);
