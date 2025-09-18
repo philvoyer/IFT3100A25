@@ -1,4 +1,4 @@
-// IFT3100H25_DrawFatLine/renderer.cpp
+// IFT3100A25_DrawFatLine/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
