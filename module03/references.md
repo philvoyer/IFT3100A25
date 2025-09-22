@@ -223,7 +223,10 @@ https://www.youtube.com/watch?v=1NLekEd770w
 Freya Holmér - Math for Game Devs [Part 4] - Interpolation & Velocity  
 https://www.youtube.com/watch?v=-Ii3MrJFBkQ&t
 
-## Divers
+Epic Games - Unreal and UEFN - Left-Up-Forward Coordinate System
+https://dev.epicgames.com/documentation/en-us/fortnite/leftupforward-coordinate-system-in-unreal-editor-for-fortnite  
+
+## Formes fractales
 
 L-système  
 https://en.wikipedia.org/wiki/L-system  
