@@ -33,7 +33,7 @@ void Renderer::setup()
 void Renderer::update()
 {
   // calculer le rayon des cercles en fonction de la résolution
-  radius = min(ofGetWidth(), ofGetHeight()) / 8.0f;
+  radius = std::min(ofGetWidth(), ofGetHeight()) / 8.0f;
 
   // temps courant en secondes
   time_current = ofGetElapsedTimef();
