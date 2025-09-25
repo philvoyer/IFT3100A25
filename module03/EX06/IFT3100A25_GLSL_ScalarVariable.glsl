@@ -1,4 +1,4 @@
-// IFT3100H25_GLSL_ScalarVariable.glsl
+// IFT3100A25_GLSL_ScalarVariable.glsl
 // Exemples de déclaration de variables scalaires en GLSL.
 
 // 1. constantes scalaires (nombres entiers)
