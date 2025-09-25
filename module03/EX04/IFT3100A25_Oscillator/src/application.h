@@ -1,4 +1,4 @@
-// IFT3100H25_Oscillator/application.h
+// IFT3100A25_Oscillator/application.h
 // Classe principale de l'application.
 
 #pragma once
