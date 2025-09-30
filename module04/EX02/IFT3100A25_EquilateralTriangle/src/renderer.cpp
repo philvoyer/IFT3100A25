@@ -13,7 +13,7 @@ void Renderer::setup()
 
   update();
 
-  ofLog() << setprecision(4) << "<triangle: " <<
+  ofLog() << std::setprecision(4) << "<triangle: " <<
   "v1:("  << vertex1_x << ", " << vertex1_y << ") " <<
   "v2:("  << vertex2_x << ", " << vertex2_y << ") " <<
   "v3:("  << vertex3_x << ", " << vertex3_y << ") " <<
@@ -36,7 +36,7 @@ void Renderer::update()
   triangle_center_y = viewport_center_y;
 
   // calculer la longueur de la moitié d'une arête du triangle
-  triangle_edge_diameter_half = min(ofGetWidth(), ofGetHeight()) / 3.0f;
+  triangle_edge_diameter_half = std::min(ofGetWidth(), ofGetHeight()) / 3.0f;
 
   // calculer la longueur des arêtes du triangle
   triangle_edge_diameter = triangle_edge_diameter_half * 2.0f;
