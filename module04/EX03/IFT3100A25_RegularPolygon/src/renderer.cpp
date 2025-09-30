@@ -28,7 +28,7 @@ void Renderer::update()
   offset = ofDegToRad(360.0f / side);
 
   // déterminer le rayon du polygone régulier
-  radius = min(ofGetWidth(), ofGetHeight()) / 3.0f;
+  radius = std::min(ofGetWidth(), ofGetHeight()) / 3.0f;
 }
 
 void Renderer::draw()
