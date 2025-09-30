@@ -1,4 +1,4 @@
-// IFT3100H25_GL_Mesh.cpp
+// IFT3100A25_GL_Mesh.cpp
 // Exemple de types minimaliste pour stocker les données des sommets d'un maillage triangulaire.
 
 // entrée
