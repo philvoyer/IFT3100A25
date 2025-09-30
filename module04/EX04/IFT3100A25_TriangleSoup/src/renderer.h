@@ -1,4 +1,4 @@
-// IFT3100H25_TriangleSoup/renderer.h
+// IFT3100A25_TriangleSoup/renderer.h
 // Classe responsable du rendu de l'application.
 
 #pragma once
