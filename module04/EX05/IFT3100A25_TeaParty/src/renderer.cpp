@@ -163,7 +163,7 @@ void Renderer::draw()
 void Renderer::reset()
 {
   // distribuer les localisateurs dans l'espace visible de la scène
-  dispatch_random_locator(teapot_count, min(ofGetWidth() * 0.6f, ofGetHeight() * 0.6f));
+  dispatch_random_locator(teapot_count, std::min(ofGetWidth() * 0.6f, ofGetHeight() * 0.6f));
 
   ofLog() << "<reset>";
 }
