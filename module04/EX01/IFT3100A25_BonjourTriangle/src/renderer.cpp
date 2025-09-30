@@ -28,7 +28,7 @@ void Renderer::update()
   color_g = ofRandom(0, 255);
   color_b = ofRandom(0, 255);
 
-  ofLog() << setprecision(4) << "<triangle: v1:("
+  ofLog() << std::setprecision(4) << "<triangle: v1:("
           << vertex1_x << ", " << vertex1_y << ") v2:("
           << vertex2_x << ", " << vertex2_y << ") v3:("
           << vertex3_x << ", " << vertex3_y << ") color:("
