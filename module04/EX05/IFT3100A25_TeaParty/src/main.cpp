@@ -1,4 +1,4 @@
-// IFT3100H25_TeaParty/main.cpp
+// IFT3100A25_TeaParty/main.cpp
 // Exemple de chargement et de rendu de plusieurs instances d'un modèle importé à partir d'un fichier de géométrie externe (un teapot en format .obj).
 
 #include "ofMain.h"

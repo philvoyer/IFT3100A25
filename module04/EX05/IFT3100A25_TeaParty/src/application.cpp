@@ -1,4 +1,4 @@
-// IFT3100H25_TeaParty/application.cpp
+// IFT3100A25_TeaParty/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
