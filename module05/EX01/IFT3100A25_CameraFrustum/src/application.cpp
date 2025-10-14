@@ -1,4 +1,4 @@
-// IFT3100H25_CameraFrustum/application.cpp
+// IFT3100A25_CameraFrustum/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
