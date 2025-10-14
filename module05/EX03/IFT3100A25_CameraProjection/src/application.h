@@ -55,5 +55,4 @@ public:
   void keyReleased(int key);
 
   std::string string_format_float_precision(float value, int precision);
-  std::string string_format_int_pad(int value, size_t size, char pad);
 };

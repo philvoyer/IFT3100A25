@@ -287,11 +287,3 @@ std::string Application::string_format_float_precision(float value, int precisio
   oss << std::fixed << std::setprecision(precision) << value;
   return oss.str();
 }
-
-std::string Application::string_format_int_pad(int value, size_t size, char pad)
-{
-  std::string str = std::to_string(value);
-  int count = size - std::min(size, str.size());
-  str.insert(0, count, pad);
-  return str;
-}
