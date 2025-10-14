@@ -135,7 +135,7 @@ void Renderer::generate_matrix()
   glm::mat4 matrix_camera = glm::translate(glm::mat4(1.0f), camera_position);
 
   // construire une matrice de vue à partir d'une matrice de transformation de caméra
-  glm::mat4 matrix_view = glm_inverse(matrix_camera);
+  glm::mat4 matrix_view = glm::inverse(matrix_camera);
 
   // construire une matrice de projection
   glm::mat4 matrix_projection = glm::perspective(glm::radians(camera_fov), camera_aspect_ratio,  camera_clip_n, camera_clip_f);
