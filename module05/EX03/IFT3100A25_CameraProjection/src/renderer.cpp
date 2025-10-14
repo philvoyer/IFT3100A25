@@ -1,4 +1,4 @@
-// IFT3100H25_CameraProjection/renderer.cpp
+// IFT3100A25_CameraProjection/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
