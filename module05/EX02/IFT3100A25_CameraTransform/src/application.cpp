@@ -1,4 +1,4 @@
-// IFT3100H25_CameraTransform/application.cpp
+// IFT3100A25_CameraTransform/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
