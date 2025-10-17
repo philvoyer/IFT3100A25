@@ -232,20 +232,17 @@ void Renderer::raster_line_dda(int x1, int y1, int x2, int y2)
   int delta_x = x2 - x1;
   int delta_y = y2 - y1;
 
-  float length = abs(delta_x) >= abs(delta_y) ? abs(delta_x) : abs(delta_y);
+  int length = std::max(abs(delta_x), abs(delta_y));
 
-  if (length < 1.0f)
-    return;
+  float step_x = delta_x / (float) length;
+  float step_y = delta_y / (float) length;
 
-  float step_x = delta_x / length;
-  float step_y = delta_y / length;
+  float x = x1;
+  float y = y1;
 
-  float x = x1 + 0.5f;
-  float y = y1 + 0.5f;
-
-  for (count = 1; count <= length; ++count)
+  for (count = 0; count <= length; ++count)
   {
-    index = fat_pixel_index_by_coord(static_cast<int>(x), static_cast<int>(y));
+    index = fat_pixel_index_by_coord(round(x), round(y));
 
     change_fat_pixel_state(index, PixelState::on);
 
