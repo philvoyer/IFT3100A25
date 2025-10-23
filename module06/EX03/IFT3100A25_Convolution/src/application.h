@@ -1,4 +1,4 @@
-// IFT3100H25_Convolution/application.cpp
+// IFT3100A25_Convolution/application.cpp
 // Classe principale de l'application.
 
 #pragma once
