@@ -1,4 +1,4 @@
-// IFT3100H25_ToneMapping/renderer.h
+// IFT3100A25_ToneMapping/renderer.h
 // Classe responsable du rendu de l'application.
 
 #pragma once
