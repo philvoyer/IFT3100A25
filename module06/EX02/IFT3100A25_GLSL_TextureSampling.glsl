@@ -1,4 +1,4 @@
-// IFT3100H25_GLSL_TextureSampling.glsl
+// IFT3100A25_GLSL_TextureSampling.glsl
 // Exemple d'une section de code pour échantillonner une texture en GLSL.
 
 // exemple de déclaration des coordonnées de mapping en provenance d'une structure de sommets
