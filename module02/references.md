@@ -141,6 +141,9 @@ https://github.com/ssloy/tinyrenderer/wiki/Lesson-1:-Bresenham’s-Line-Drawing-
 The DDA Algorithm, explained interactively  
 https://aaaa.sh/creatures/dda-algorithm-interactive
 
+Geeks for Geeks - DDA Line generation Algorithm in Computer Graphics  
+https://www.geeksforgeeks.org/computer-graphics/dda-line-generation-algorithm-computer-graphics/
+
 ## Interface utilisateur (UI) 
 
 ofxGUI  
