@@ -100,6 +100,9 @@ https://en.wikipedia.org/wiki/FXT1
 Wikipedia : Perlin noise  
 https://en.wikipedia.org/wiki/Perlin_noise
 
+Wikipedia : Canny edge detector  
+https://en.wikipedia.org/wiki/Canny_edge_detector
+
 ## openFrameworks
 
 ofImage  
