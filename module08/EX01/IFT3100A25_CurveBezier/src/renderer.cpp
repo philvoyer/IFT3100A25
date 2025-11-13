@@ -1,4 +1,4 @@
-// IFT3100H25_CurveBezier/renderer.cpp
+// IFT3100A25_CurveBezier/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
