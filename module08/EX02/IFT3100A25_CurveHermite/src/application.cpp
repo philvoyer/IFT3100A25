@@ -1,4 +1,4 @@
-// IFT3100H25_CurveHermite/application.cpp
+// IFT3100A25_CurveHermite/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
