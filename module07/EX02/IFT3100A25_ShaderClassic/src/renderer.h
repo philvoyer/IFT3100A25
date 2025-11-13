@@ -1,4 +1,4 @@
-// IFT3100H25_ShaderClassic/renderer.h
+// IFT3100A25_ShaderClassic/renderer.h
 // Classe responsable du rendu de l'application.
 
 #pragma once
