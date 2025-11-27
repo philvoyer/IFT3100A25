@@ -27,10 +27,10 @@ uniform vec3 light_position;
 void main()
 {
   // calculer la matrice normale
-  mat3 normalMatrix = transpose(inverse(mat3(modelViewMatrix)));
+  mat3 normal_matrix = transpose(inverse(mat3(modelViewMatrix)));
 
   // transformation de la normale du sommet dans l'espace de vue
-  vec3 surface_normal = normalMatrix * normal;
+  vec3 surface_normal = normal_matrix * normal;
 
   // transformation de la position du sommet dans l'espace de vue
   vec3 surface_position = vec3(modelViewMatrix * vec4(position, 1.0));
