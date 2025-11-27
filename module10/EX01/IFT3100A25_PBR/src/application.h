@@ -1,4 +1,4 @@
-// IFT3100H25_PBR/application.h
+// IFT3100A25_PBR/application.h
 // Classe principale de l'application.
 
 #pragma once
