@@ -29,9 +29,9 @@ void main()
   // transformation de la position du sommet dans l'espace de vue
   surface_position = vec3(modelViewMatrix * vec4(position, 1.0));
 
-  // calculer la profondeur relativement l'intervalle de profondeur
-  surface_depth = gl_Position.z / depth_range;
-
   // transformation de la position du sommet par les matrices de modèle, vue et projection
   gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+
+  // calculer la profondeur relativement l'intervalle de profondeur
+  surface_depth = gl_Position.z / depth_range;
 }
