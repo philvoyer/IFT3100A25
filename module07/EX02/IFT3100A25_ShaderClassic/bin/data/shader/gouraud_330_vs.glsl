@@ -3,15 +3,15 @@
 #version 330
 
 // attributs de sommet
-in vec4 position;
-in vec4 normal;
+in vec3 position;
+in vec3 normal;
 
 // attributs en sortie
 out vec3 surface_color;
 
 // attributs uniformes
-uniform mat4x4 modelViewMatrix;
-uniform mat4x4 projectionMatrix;
+uniform mat4 modelViewMatrix;
+uniform mat4 projectionMatrix;
 
 // couleurs de réflexion du matériau
 uniform vec3 color_ambient;
@@ -27,13 +27,13 @@ uniform vec3 light_position;
 void main()
 {
   // calculer la matrice normale
-  mat4x4 normalMatrix = transpose(inverse(modelViewMatrix));
+  mat3 normalMatrix = transpose(inverse(mat3(modelViewMatrix)));
 
   // transformation de la normale du sommet dans l'espace de vue
-  vec3 surface_normal = vec3(normalMatrix * normal);
+  vec3 surface_normal = normalMatrix * normal;
 
   // transformation de la position du sommet dans l'espace de vue
-  vec3 surface_position = vec3(modelViewMatrix * position);
+  vec3 surface_position = vec3(modelViewMatrix * vec4(position, 1.0));
 
   // re-normaliser la normale
   vec3 n = normalize(surface_normal);
@@ -67,5 +67,5 @@ void main()
     color_specular * reflection_specular);
 
   // transformation de la position du sommet par les matrices de modèle, vue et projection
-  gl_Position = projectionMatrix * modelViewMatrix * position;
+  gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
 }
