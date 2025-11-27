@@ -9,7 +9,6 @@ in vec3 normal;
 // attributs en sortie
 out vec3 surface_position;
 out vec3 surface_normal;
-out vec2 surface_texcoord;
 
 // attributs uniformes
 uniform mat4 modelViewMatrix;
