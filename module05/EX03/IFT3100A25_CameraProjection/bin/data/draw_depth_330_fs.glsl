@@ -1,4 +1,4 @@
-// IFT3100A25 ~ draw_normal_330_fs.glsl
+// IFT3100A25 ~ draw_depth_330_fs.glsl
 
 #version 330
 
@@ -17,5 +17,6 @@ void main()
   float clipDepth = ndcDepth / gl_FragCoord.w;
 
   float depth_color = 1.0 - surface_depth;
+
   fragment_color = vec4(depth_color, depth_color, depth_color, 1.0);
 }

@@ -1,10 +1,10 @@
-// IFT3100A25 ~ lambert_330_vs.glsl
+// IFT3100A25 ~ draw_depth_330_vs.glsl
 
 #version 330
 
 // attributs de sommet
-in vec4 position;
-in vec4 normal;
+in vec3 position;
+in vec3 normal;
 
 // attributs en sortie
 out vec3 surface_position;
@@ -13,25 +13,25 @@ out vec3 surface_normal;
 out float surface_depth;
 
 // attributs uniformes
-uniform mat4x4 modelViewMatrix;
-uniform mat4x4 projectionMatrix;
+uniform mat4 modelViewMatrix;
+uniform mat4 projectionMatrix;
 
 uniform float depth_range;
 
 void main()
 {
   // calculer la matrice normale
-  mat4x4 normalMatrix = transpose(inverse(modelViewMatrix));
+  mat3 normal_matrix = transpose(inverse(mat3(modelViewMatrix)));
 
   // transformation de la normale du sommet dans l'espace de vue
-  surface_normal = vec3(normalMatrix * normal);
+  surface_normal = normalize(normal_matrix * normal);
 
   // transformation de la position du sommet dans l'espace de vue
-  surface_position = vec3(modelViewMatrix * position);
-
-  // transformation de la position du sommet par les matrices de modèle, vue et projection
-  gl_Position = projectionMatrix * modelViewMatrix * position;
+  surface_position = vec3(modelViewMatrix * vec4(position, 1.0));
 
   // calculer la profondeur relativement l'intervalle de profondeur
   surface_depth = gl_Position.z / depth_range;
+
+  // transformation de la position du sommet par les matrices de modèle, vue et projection
+  gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
 }

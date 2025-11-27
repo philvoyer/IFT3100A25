@@ -17,10 +17,10 @@ uniform mat4x4 projectionMatrix;
 void main()
 {
   // calculer la matrice normale
-  mat4x4 normalMatrix = transpose(inverse(modelViewMatrix));
+  mat4x4 normal_matrix = transpose(inverse(modelViewMatrix));
 
   // transformation de la normale du sommet dans l'espace de vue
-  surface_normal = vec3(normalMatrix * normal);
+  surface_normal = vec3(normal_matrix * normal);
 
   // transformation de la position du sommet dans l'espace de vue
   surface_position = vec3(modelViewMatrix * position);

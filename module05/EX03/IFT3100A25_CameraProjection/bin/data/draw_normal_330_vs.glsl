@@ -3,28 +3,28 @@
 #version 330
 
 // attributs de sommet
-in vec4 position;
-in vec4 normal;
+in vec3 position;
+in vec3 normal;
 
 // attributs en sortie
 out vec3 surface_position;
 out vec3 surface_normal;
 
 // attributs uniformes
-uniform mat4x4 modelViewMatrix;
-uniform mat4x4 projectionMatrix;
+uniform mat4 modelViewMatrix;
+uniform mat4 projectionMatrix;
 
 void main()
 {
   // calculer la matrice normale
-  mat4x4 normalMatrix = transpose(inverse(modelViewMatrix));
+  mat3 normal_matrix = transpose(inverse(mat3(modelViewMatrix)));
 
   // transformation de la normale du sommet dans l'espace de vue
-  surface_normal = vec3(normalMatrix * normal);
+  surface_normal = normalize(normal_matrix * normal);
 
   // transformation de la position du sommet dans l'espace de vue
-  surface_position = vec3(modelViewMatrix * position);
+  surface_position = vec3(modelViewMatrix * vec4(position, 1.0));
 
   // transformation de la position du sommet par les matrices de modèle, vue et projection
-  gl_Position = projectionMatrix * modelViewMatrix * position;
+  gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
 }
